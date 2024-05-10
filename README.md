@@ -35,3 +35,8 @@ Build a React Application with help of Redux which renders a counter that displa
    1. import the React Redux's `useSelector` custom hook
    2. use `useSelector()` inside of the `Counter` function
 3. output the `counter` value
+
+## 4. Dispatching Actions From Inside Components
+
+1. in `Counter.js`, add 2 buttons to increment & decrement the counter
+2. use `useDispatch()` to dispatch actions & wire up these buttons with help of 2 functions
