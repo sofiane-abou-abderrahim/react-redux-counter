@@ -40,3 +40,11 @@ Build a React Application with help of Redux which renders a counter that displa
 
 1. in `Counter.js`, add 2 buttons to increment & decrement the counter
 2. use `useDispatch()` to dispatch actions & wire up these buttons with help of 2 functions
+
+## 5. Redux with Class-based Components
+
+1. add a new `Counter` class in `Counter.js` & extend it to `Component`
+2. render the JSX code inside of it
+3. add all the relevant methods
+4. add the `this` keyword to refer to these methods
+5. get access to Redux with help of the `connect` feature
