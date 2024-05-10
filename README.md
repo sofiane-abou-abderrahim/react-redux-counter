@@ -19,3 +19,11 @@ Build a React Application with help of Redux which renders a counter that displa
 3. connect your React app to this Redux store so that the components of this app can dispatch and listen
    1. export the store as a default
    2. provide this store to the React app
+
+## 2. Providing the Store
+
+1. go to the `src/index.js`
+2. import the `Provider` component from `react-redux`
+3. wrap the root component with `<Provider>`
+4. import `store` from `store/index`
+5. set the `store` prop on the `<Provider>` component to `store`
