@@ -27,3 +27,11 @@ Build a React Application with help of Redux which renders a counter that displa
 3. wrap the root component with `<Provider>`
 4. import `store` from `store/index`
 5. set the `store` prop on the `<Provider>` component to `store`
+
+## 3. Using Redux Data in React Components
+
+1. utilize this Provider store in the `Counter.js` component
+2. get access to the Redux store into the data to output the current counter value
+   1. import the React Redux's `useSelector` custom hook
+   2. use `useSelector()` inside of the `Counter` function
+3. output the `counter` value
