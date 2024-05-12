@@ -48,3 +48,9 @@ Build a React Application with help of Redux which renders a counter that displa
 3. add all the relevant methods
 4. add the `this` keyword to refer to these methods
 5. get access to Redux with help of the `connect` feature
+
+## 6. Attaching Payloads to Actions
+
+1. add a new `button` to increase the counter by 5 (or any other number) in `Counter.js`
+2. add a new `action.type === increase` in `store/index.js` & set an `action.amount`
+3. add a new `increaseHandler` function in `Counter.js`
