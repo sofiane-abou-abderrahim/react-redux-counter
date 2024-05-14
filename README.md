@@ -61,3 +61,9 @@ Build a React Application with help of Redux which renders a counter that displa
 2. dispatch the `toggle` action inside of the `toggleCounterHandler` in `Counter.js`
 3. get access to this `toggle` state with help of `useSelector()` inside of the `Counter` component & store it in a `show` constant
 4. render the counter conditionally by using this `show` constant
+
+## 8. Adding State Slices
+
+1. run `npm install @reduxjs/toolkit react-redux`
+2. in `store/index.js`, import `createSlice` from `@reduxjs/toolkit`
+3. use `createSlice()`
