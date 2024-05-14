@@ -74,3 +74,9 @@ Build a React Application with help of Redux which renders a counter that displa
 2. save the `createSlice` value in a new `counterSlice` constant
 3. register this `counterSlice` to the store by calling the `reducer` method on it & passing it as an argument of `createStore`
 4. use `configureStore` instead of `createStore` & pass a configurable object to it
+
+## 10. Migrating Everything To Redux Toolkit
+
+1. get hold of the `counterSlice`'s action identifiers for dispatching actions & export it
+2. import `counterActions` in `Counter.js`
+3. use `counterActions` to dispatch actions
