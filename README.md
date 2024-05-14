@@ -80,3 +80,9 @@ Build a React Application with help of Redux which renders a counter that displa
 1. get hold of the `counterSlice`'s action identifiers for dispatching actions & export it
 2. import `counterActions` in `Counter.js`
 3. use `counterActions` to dispatch actions
+
+## 11. Working with Multiple Slices
+
+1. in `App.js`, add the `Header` & `Auth` components
+2. add a brand new `authSlice` for the authentication state with help of `createSlice()` in `store/index`
+3. use the `authActions` in the different components to dispatch actions
