@@ -67,3 +67,10 @@ Build a React Application with help of Redux which renders a counter that displa
 1. run `npm install @reduxjs/toolkit react-redux`
 2. in `store/index.js`, import `createSlice` from `@reduxjs/toolkit`
 3. use `createSlice()`
+
+## 9. Connecting Redux Toolkit State
+
+1. get rid of `counterReducer` in `store/index.js`
+2. save the `createSlice` value in a new `counterSlice` constant
+3. register this `counterSlice` to the store by calling the `reducer` method on it & passing it as an argument of `createStore`
+4. use `configureStore` instead of `createStore` & pass a configurable object to it
