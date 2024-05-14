@@ -86,3 +86,10 @@ Build a React Application with help of Redux which renders a counter that displa
 1. in `App.js`, add the `Header` & `Auth` components
 2. add a brand new `authSlice` for the authentication state with help of `createSlice()` in `store/index`
 3. use the `authActions` in the different components to dispatch actions
+
+## 12. Reading & Dispatching From A New Slice
+
+1. render conditionally the `Auth` & `UserProfile` components in `App.js`
+2. render conditionally the navigation in `Header.js`
+3. dispatch the login action when the `Login` button is clicked in `Auth.js`
+4. dispatch the logout action when the `Logout` button is clicked in `Header.js`
