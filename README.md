@@ -54,3 +54,10 @@ Build a React Application with help of Redux which renders a counter that displa
 1. add a new `button` to increase the counter by 5 (or any other number) in `Counter.js`
 2. add a new `action.type === increase` in `store/index.js` & set an `action.amount`
 3. add a new `increaseHandler` function in `Counter.js`
+
+## 7. Working with Multiple State Properties
+
+1. add a new state to the Redux store to show/display the counter
+2. dispatch the `toggle` action inside of the `toggleCounterHandler` in `Counter.js`
+3. get access to this `toggle` state with help of `useSelector()` inside of the `Counter` component & store it in a `show` constant
+4. render the counter conditionally by using this `show` constant
