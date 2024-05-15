@@ -93,3 +93,9 @@ Build a React Application with help of Redux which renders a counter that displa
 2. render conditionally the navigation in `Header.js`
 3. dispatch the login action when the `Login` button is clicked in `Auth.js`
 4. dispatch the logout action when the `Logout` button is clicked in `Header.js`
+
+## 13. Splitting Our Code
+
+1. add a new `counter.js` file in the `store` folder
+2. add a new `auth.js` file in the `store` folder
+3. in `store/index.js`, create a main store & merge all the slice reducers together
